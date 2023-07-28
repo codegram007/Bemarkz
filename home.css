@@ -4,6 +4,13 @@ body {
 }
 
 
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+
 
 .carouselmain {
     padding-top: 5.7rem;
@@ -107,6 +114,8 @@ body {
     padding-right: 50%;
     margin-bottom: -6.1rem;
 
+
+
 }
 
 .navbar {
@@ -130,5 +139,41 @@ body {
 }
 
 footer {
+    background-color: black;
+}
+
+/* About contact css */
+
+#abtsec{
+    /* background-color: rgb(173, 143, 9); */
+
+}
+#contactrow{
+row-gap: 20px;
+justify-content: center;
+}
+
+#cardaccordion{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#services{
+    
+    background-image: linear-gradient(to top, #0a67a5 0%, #330867 100%);
+}
+
+#servicelist{
+    background-color: black;
+}
+.btn-primary{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.btn-warning{
+    box-shadow: rgba(0, 0, 0, 0.116) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.103) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#servicescard{
     background-color: black;
 }

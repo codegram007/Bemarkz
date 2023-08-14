@@ -98,9 +98,12 @@ body {
 #sec4 {
     background-size: cover;
     background-image: url(image/black-car-interior.jpg);
-    height: 35rem;
+    height:100% ;
 
 
+}
+#cock{
+    background-color: black;
 }
 
 #sec1 {
@@ -146,17 +149,6 @@ footer {
 
 /*                     About contact css                   */
 
-#abtsec{
-    /* background-color: rgb(173, 143, 9); */
-
-}
-#contactrow{
-row-gap: 20px;
-justify-content: center;
-}
-#contacth4{
-    padding-top:-20rem;
-}
 
 #cardaccordion{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;

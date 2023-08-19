@@ -159,6 +159,9 @@ footer {
     background-image: linear-gradient(to top, #0a67a5 0%, #330867 100%);
 }
 
+/* #beer{
+    max-width:min-content;
+} */
 #servicelist{
     background-color: black;
 }

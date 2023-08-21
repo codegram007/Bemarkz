@@ -176,3 +176,7 @@ footer {
 #servicescard{
     background-color: black;
 }
+
+#contactrow{
+    gap: 12px;
+}
